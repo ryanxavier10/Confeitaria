@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2? family= Roboto:wght@300;500 & family= Saira+Semi+Condensed:wght@100;500 & display=swap">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Confeitaria</title>
 </head>
 <body>
+
     <div class="container">
         <nav>
             <div class="logo">
@@ -22,43 +23,42 @@
         </nav>
     </div>
 
-    <div class="content">
-        <div class="slides">
-            <input type="radio" name="slide" id="slide1" checked>
-            <input type="radio" name="slide" id="slide2">
-            <input type="radio" name="slide" id="slide3">
-            <input type="radio" name="slide" id="slide4">
-            <input type="radio" name="slide" id="slide5">
-
-            <div class="slide s1">
-                <img src="img/bolo1.jpg" alt="panqueca com frutas vermelhas">
-            </div>
-
-            <div class="slide">
-                <img src="img/bolo2.jpg" alt="bolo branco com cauda de chocolate e morango">
-            </div>
-
-            <div class="slide">
-                <img src="img/bolo3.jpg" alt="bolo de chocolate com cobertura de mirtilo">
-            </div>
-
-            <div class="slide">
-                <img src="img/bolo4.jpg" alt="bolo de chocolate com doce de leite">
-            </div>
-
-            <div class="slide">
-                <img src="img/bolo5.jpg" alt="bolo de morango com chocolate branco">
-            </div>
-
-            <div class="navigation">
-                <label class="bar" for="slide1"></label>
-                <label class="bar" for="slide2"></label>
-                <label class="bar" for="slide3"></label>
-                <label class="bar" for="slide4"></label>
-                <label class="bar" for="slide5"></label>
+    <section class="containerproje">
+        <div class="slide-container active">
+        <div class="slide">
+            <div class="contentproje">
+            <h3>Metaverso</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe delectus eveniet magni ipsum recusandae! Ducimus minus cum reiciendis culpa et dicta aperiam, non adipisci nam aliquid! Quasi repellendus officiis ullam!</p>
+            <a href="#" class="bntproj">Saiba mais</a>
             </div>
         </div>
-    </div>
+        </div>
+
+        <div class="slide-container">
+            <div class="slide">
+                <div class="contentproje">
+                <h3>Metaverso</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe delectus eveniet magni ipsum recusandae! Ducimus minus cum reiciendis culpa et dicta aperiam, non adipisci nam aliquid! Quasi repellendus officiis ullam!</p>
+                <a href="#" class="bntproj">Saiba mais</a>
+                </div>
+            </div>
+            </div>
+
+            <div class="slide-container">
+                <div class="slide">
+                    <div class="contentproje">
+                    <h3>Metaverso</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe delectus eveniet magni ipsum recusandae! Ducimus minus cum reiciendis culpa et dicta aperiam, non adipisci nam aliquid! Quasi repellendus officiis ullam!</p>
+                    <a href="#" class="bntproj">Saiba mais</a>
+                    </div>
+                </div>
+                </div>
+
+
+                <div id="prev"> <span class="material-icons md-24">arrow_left_alt </span></div>
+                <div id="next"> <span class="material-icons md-24">arrow_right_alt</span> </div>
+    </section>
     
+    <script src="script.js"></script>
 </body>
 </html>

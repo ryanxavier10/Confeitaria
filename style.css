@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #0D0D0D;
+    background-color: #ffffff;
     min-height: 100vh;
     height: 100vh;
     width: 100vw;
@@ -38,84 +38,154 @@ nav ul li a{
     padding: 10px 20px;
     text-decoration: none;
     font-size: 20px;
-    color: #ffffff;
+    font-weight: bold;
+    color: #000000;
     border-radius: 30px;
     transition: 0.6s;
+    font-family: 'Saira', cursive;
 }
 nav ul li a:hover{
-    background-color: #BF7E04;
+    background-color: #a9a9a9;
 }
 
-.content{
-    height: 520px;
-    width: 935px;
-    border-radius: 20px;
-    overflow: hidden;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.containerproje{
+    position: relative;
 }
 
-.navigation{
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translate(-50%);
+.containerproje .slide-container .slide{
+    min-height: 100vh;
     display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px 9%;
+    padding-bottom: 70px;
 }
 
-.bar{
-    width: 70px;
-    height: 17px;
-    border: 2px solid #ffffff;
-    margin: 6px;
+.containerproje .slide-container .slide .contentproje{
+    flex: 1 1 350px;
+    animation: slideContent .4s linear .4s backwards;
+}
+
+@keyframes slideContent{0%
+    {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+}
+
+.containerproje .slide-container .slide .contentproje h3{
+    font-size: 35px;
+    color: #BF7E04;
+    font-family:'Saira', cursive;
+}
+
+.containerproje .slide-container .slide .contentproje p{
+    font-size: 16px;
+    color: #000000;
+    font-family:'Saira', cursive;
+    width: 40%;
+    height: 10%;
+}
+
+.containerproje .slide-container .slide .contentproje .bntproj{
+    margin-top: 10px;
+    display: inline-block;
+    background: #a9a9a9;
+    color: #000000;
+    font-size: 17px;
+    padding: 9px 40px;
     border-radius: 5px;
-    cursor: pointer;
-    transition: .6s;
+    border: 2px solid #a9a9a9;
+    font-family:'Saira', cursive;
+    text-decoration: none;
 }
 
-.bar:hover{
-    background-color: #ffffff;
+.containerproje .slide-container .slide .contentproje .bntproj:hover{
+    background: #e0dfdf;
+    border: 2px solid #e0dfdf;
+    color: #000000;
 }
 
-input{
+.containerproje .slide-container{
     display: none;
 }
 
-.slides{
-    display: flex;
-    width: 500%;
-    height: 100%;
+.containerproje .slide-container.active{
+    display: block;
 }
 
-.slide {
-    width: 20%;
-    transition: .6s;
+.containerproje .slide-container:nth-child(1) .slide{
+    background: url(./img/bolo4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
 }
 
-.slide img {
-    width: 100%;
-    height: 100%;
+.containerproje .slide-container:nth-child(2) .slide{
+    background: url(./img/metaverso.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
 }
 
-#slide1:checked ~ .s1 {
-    margin-left: 0;
+.containerproje .slide-container:nth-child(3) .slide{
+    background: url(./img/bolo3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
 }
 
-#slide2:checked ~.s1 {
-    margin-left: -20%;
+.containerproje #prev,
+.containerproje #next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000000;
+    background-color: #a9a9a9;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 50px;
 }
 
-#slide3:checked ~.s1 {
-    margin-left: -40%;
+.containerproje #prev:hover,
+.containerproje #next:hover{
+    background: #e0dfdf;
 }
 
-#slide4:checked ~.s1 {
-    margin-left: -60%;
+.containerproje #prev{
+    left: 20px;
 }
 
-#slide5:checked ~.s1 {
-    margin-left: -80%;
+.containerproje #next{
+    right: 20px;
 }
 
+@media(max-width: 500px){
+    .containerproje #prev{
+        top: 60%;
+        left: 0;
+    }
+
+    .containerproje #next{
+        top: 60%;
+        right: 0;
+    }
+
+    .containerproje .slide-container .slide .contentproje p{
+        font-size: 16px;
+        color: #000000;
+        font-family: 'Saira', cursive;
+        width: 70%;
+        height: 10%;
+    }
+}
