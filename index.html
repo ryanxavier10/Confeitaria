@@ -8,19 +8,41 @@
     <title>Confeitaria</title>
 </head>
 <body>
+<header>
+    <nav class="nav-bar">
+        <div class="logo">
+            <h1>Logo</h1>
+        </div>
 
-    <div class="container">
-        <nav>
-            <div class="logo">
-                <p>ConfeitaWeb</p>
-            </div>
-
+        <div class="nav-list">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Contato</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
             </ul>
-        </nav>
+        </div>
+        <div class="login-button">
+            <button><a href="#">Entrar</a></button>
+        </div>
+
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img  class="icon" src="img/menu.svg"></button>
+        </div>
+    </nav>
+
+    <div class="mobile-menu">
+        <ul>
+            <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+        </ul>
+
+        <div class="login-button">
+            <button><a href="#">Entrar</a></button>
+        </div>
+    </div>
+</header>
+
     </div>
 
     <section class="containerproje">
