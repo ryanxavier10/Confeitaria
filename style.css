@@ -193,7 +193,7 @@ header{
 }
 
 .containerproje .slide-container:nth-child(2) .slide{
-    background: url(./img/metaverso.jpeg);
+    background: url(./img/bolobranco.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
@@ -201,7 +201,7 @@ header{
 }
 
 .containerproje .slide-container:nth-child(3) .slide{
-    background: url(./img/bolo3.jpg);
+    background: url(./img/bolinho.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
