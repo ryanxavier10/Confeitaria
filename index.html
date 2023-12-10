@@ -5,20 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <title>Confeitaria</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="ico/iconeBolo.ico" type="image/x-icon">
+    <title>ConfeitaWeb</title>
 </head>
 <body>
 <header>
-    <nav class="nav-bar">
+    <nav id="nav-bar">
         <div class="logo">
-            <h1>Logo</h1>
+            <h1>Confeita<span>Web</span></h1>
         </div>
 
         <div class="nav-list">
             <ul>
                 <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
             </ul>
         </div>
         <div class="login-button">
@@ -33,8 +35,8 @@
     <div class="mobile-menu">
         <ul>
             <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
         </ul>
 
         <div class="login-button">
@@ -77,10 +79,110 @@
                 </div>
 
 
-                <div id="prev"><img src="./img/setaesquerda.svg" alt="seta para esquerda"></div>
+                <div id="prev"><img src="./img/setaesquerda.svg" alt="seta para esquerda"><a href=""></a></div>
                 <div id="next"><img src="./img/setadireita.svg" alt="seta para direita"></div>
     </section>
-    
+
+    <main>
+        <article aria-label="seção sobre a empresa" class="sobre">
+            <div class="sobre_titulo">
+            <h1>Sobre a Empresa</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat corporis quis magni veritatis ducimus sed rem, quod praesentium culpa, facere modi fuga unde ab incidunt. Provident eos dolorem eligendi reiciendis!</p>
+            <div aria-label="seção de apenas ilustrações de botões">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            </div>
+            <img src="img/edificio.jpg" alt="Imagem ilustrativa">
+            <div class="sobre_conteudo">
+                <div class="sobre_texto">
+                    <h1>Confeitaria Brasileira</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto nulla mollitia distinctio minus. Voluptatum ab rerum obcaecati asperiores sapiente id!
+                        <br>
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, incidunt?
+                    </p>
+                </div>
+                <div class="sobre_info">
+                    <p><i class="fa-solid fa-location-dot"></i><span>Endereço:</span> São Paulo, Brasil</p>
+                    <p><i class="fa-solid fa-phone-volume"></i><span>Telefone:</span> +55 (xx) xxxxx-xxxx</p>
+                    <p><i class="fa-solid fa-truck-fast"></i><span>Entrega:</span> Para todo o Brasil</p>
+                    <p><i class="fa-solid fa-envelope"></i><span>Email:</span> confeitaweb@gmail.com</p>
+                    <p><i class="fa-solid fa-cart-shopping"></i><span>Formas de Pagamento:</span> Débito, Crédito, Refeição e Pix</p>
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer>
+    <div id="footer_content">
+        <div id="footer_contacts">
+            <h1>Confeita<span>Web</span></h1>
+            <p>É tudo sobre seus sonhos</p>
+
+            <div id="footer_social_media">
+                <a href="#" class="footer-link" id="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" class="footer-link" id="facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+                <a href="#" class="footer-link" id="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+
+        </div>
+
+        <ul class="footer-list">
+            <li>
+                <h3>Mais informações</h3>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Nossas lojas</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Faq</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Trabalhe Conosco</a>
+            </li>
+        </ul>
+
+        <ul class="footer-list">
+            <li>
+                <h3>Produtos</h3>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Bolo</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Cupcake</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Torta</a>
+            </li>
+        </ul>
+
+        <div id="footer_subscribe">
+            <h3>Suporte</h3>
+            <p>Algum erro na compra ? Envie nos seu email para que possamos entrar em contato</p>
+
+        <div id="input_group">
+            <input type="email" name="email" id="email">
+            <button>
+                <i class="fa-regular fa-envelope"></i>
+            </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer_copyright">
+        &copy; 2023 all rights reserved Ryan Xavier
+    </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
