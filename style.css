@@ -11,6 +11,10 @@ body {
     width: 100vw;
 }
 
+body p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 header{
     background: linear-gradient(90deg, #111, #000000);
     box-shadow: 0px 3px 10px #a9a9a9;
@@ -169,7 +173,7 @@ header{
 .containerproje .slide-container .slide .contentproje p{
     font-size: 16px;
     color: #000000;
-    font-family:'Saira', cursive;
+    font-family:'Times New Roman', Times, serif;
     width: 40%;
     height: 10%;
     margin-left: 50px;
@@ -210,7 +214,7 @@ header{
 }
 
 .containerproje .slide-container:nth-child(2) .slide{
-    background: url(./img/cupkake.jpg);
+    background: url(./img/cupcake.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -218,7 +222,7 @@ header{
 }
 
 .containerproje .slide-container:nth-child(3) .slide{
-    background: url(./img/bolinho.jpg);
+    background: url(./img/tortasdoce.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -232,7 +236,6 @@ header{
     transform: translateY(-50%);
     color: #ffffff;
     background-color: transparent;
-    border: 2px solid #000000;
     height: 50px;
     width: 50px;
     font-size: 25px;
@@ -242,7 +245,7 @@ header{
 
 .containerproje #prev:hover,
 .containerproje #next:hover{
-    background: #BF7E04;
+    background: transparent;
 }
 
 .containerproje #prev{
@@ -269,7 +272,7 @@ header{
     .containerproje .slide-container .slide .contentproje p{
         font-size: 16px;
         color: #000000;
-        font-family: 'Saira', cursive;
+        font-family: 'Times New Roman', Times, serif;
         width: 70%;
         height: 10%;
     }
@@ -299,7 +302,7 @@ main .sobre {
     font-size: 2.5rem;
     color: #BF7E04;
     margin-bottom: 15px;
-    font-family: 'Lora', serif;
+    font-family: 'Saira', cursive;
 }
 
 .sobre_titulo p{
