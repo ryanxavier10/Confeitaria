@@ -67,7 +67,8 @@ header{
 
 .login-button button{
     border: none;
-    background-color: #BF7E04;
+    background-color: transparent;
+    border: 3px solid #BF7E04;
     padding: 10px 15px;
     border-radius: 5px;
 }
@@ -206,7 +207,7 @@ header{
 }
 
 .containerproje .slide-container:nth-child(1) .slide{
-    background: url(./img/bolo4.jpg);
+    background: url(./img/bolo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -214,7 +215,7 @@ header{
 }
 
 .containerproje .slide-container:nth-child(2) .slide{
-    background: url(./img/cupcake.jpg);
+    background: url(./img/cupckake.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -222,7 +223,7 @@ header{
 }
 
 .containerproje .slide-container:nth-child(3) .slide{
-    background: url(./img/tortasdoce.jpg);
+    background: url(./img/torta.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
