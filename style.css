@@ -165,10 +165,11 @@ header{
 }
 
 .containerproje .slide-container .slide .contentproje h3{
-    font-size: 35px;
+    font-size: 60px;
     color: #BF7E04;
     font-family:'Saira', cursive;
     margin-left: 50px;
+    margin-bottom: 16px;
 }
 
 .containerproje .slide-container .slide .contentproje p{
@@ -178,6 +179,11 @@ header{
     width: 40%;
     height: 10%;
     margin-left: 50px;
+    font-weight: bolder;
+    background-color: rgb(254, 212, 135);
+    border: 2px solid black;
+    padding: 16px;
+    border-radius: 4px;
 }
 
 .containerproje .slide-container .slide .contentproje .bntproj{
@@ -399,6 +405,7 @@ main .sobre {
 
 .sobre_info span{
     color: #f5f5f5;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /*transição do barra sobre a empresa*/
@@ -504,6 +511,12 @@ footer span{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 3rem 3.5rem;
+}
+
+#footer_content h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32x;
+    font-weight: normal;
 }
 
 #footer_contacts h1{
