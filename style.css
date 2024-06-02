@@ -172,36 +172,23 @@ header{
     margin-bottom: 16px;
 }
 
-.containerproje .slide-container .slide .contentproje p{
-    font-size: 16px;
-    color: #000000;
-    font-family:'Times New Roman', Times, serif;
-    width: 40%;
-    height: 10%;
-    margin-left: 50px;
-    font-weight: bolder;
-    background-color: rgb(254, 212, 135);
-    border: 2px solid black;
-    padding: 16px;
-    border-radius: 4px;
-}
-
 .containerproje .slide-container .slide .contentproje .bntproj{
     margin-top: 10px;
     display: inline-block;
-    background: #000000;
-    color: #ffffff;
+    background: #000;
+    color: #BF7E04;
     font-size: 17px;
     padding: 9px 40px;
     border-radius: 5px;
     font-family:'Saira', cursive;
     text-decoration: none;
     margin-left: 50px;
+    border: 3px solid #BF7E04;
 }
 
 .containerproje .slide-container .slide .contentproje .bntproj:hover{
-    background: #111;
-    color: #ffffff;
+    background: #111000;
+    color: #cf8908;
 }
 
 .containerproje .slide-container{
@@ -218,6 +205,7 @@ header{
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
+    opacity: 0.9;
 }
 
 .containerproje .slide-container:nth-child(2) .slide{
@@ -226,6 +214,7 @@ header{
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
+    opacity: 0.9;
 }
 
 .containerproje .slide-container:nth-child(3) .slide{
@@ -234,6 +223,7 @@ header{
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
+    opacity: 0.9;
 }
 
 .containerproje #prev,
@@ -274,14 +264,6 @@ header{
     .containerproje #next{
         top: 60%;
         right: 0;
-    }
-
-    .containerproje .slide-container .slide .contentproje p{
-        font-size: 16px;
-        color: #000000;
-        font-family: 'Times New Roman', Times, serif;
-        width: 70%;
-        height: 10%;
     }
 }
 
